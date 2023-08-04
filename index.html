@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="Minesweeper.css">
 </head>
 <body>
+
+    <button id="instructionsButton">游戏说明</button>
+    <div id="instructions" style="display: none;">
+        <p>1.游戏板是一个方格图，其中隐藏了地雷。</p>
+        <p>2.玩家翻开一个方格，如果是地雷，则游戏结束，失败。</p>
+        <p>3.翻开非雷的方格会显示数字，表示周围的地雷数量。</p>
+        <p>4.标记地雷：玩家可以右键点击一个方格来标记它为地雷。</p>
+        <p>5.正确标记数字单元格周围的所有地雷后，再次点击数字可以快速翻开周围所有非雷单元格，如若未正确标记之后点击数字，则游戏失败</p>
+        <p>6.游戏胜利：翻开所有非地雷方格并且正确标记所有地雷，游戏胜利。</p>
+    </div>
+
    <h1>扫雷</h1>
    <div id="info-container">
     <span id="mineCounter">Mines Remain: 0</span>

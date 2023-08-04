@@ -85,5 +85,24 @@ footer #version{
     font-size: 20px;
     color: #888;
 }
+#instructionsButton {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+    width:100px;
+    /* 其他样式... */
+}
+
+#instructions {
+    width: 200px;
+    position: absolute;
+    top: 60px; 
+    right: 10px;
+    display: none;
+    border: 2px solid #ccc; /* 边框样式 */
+    padding: 5px; /* 边框内边距 */
+    background-color: #f2f2f2; /* 背景色 */
+
+}
 
 

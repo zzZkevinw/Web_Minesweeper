@@ -431,6 +431,16 @@ hardButton.addEventListener('click', function() {
     resetGame();  // 重置游戏
 });
 
+document.getElementById('instructionsButton').addEventListener('click', function() {
+    var instructions = document.getElementById('instructions');
+    if (instructions.style.display === 'none') {
+        instructions.style.display = 'block';
+    } else {
+        instructions.style.display = 'none';
+    }
+});
+
+
 window.onload = function() {
     resetGame();  // 游戏开始时，初始化游戏
 }; 
