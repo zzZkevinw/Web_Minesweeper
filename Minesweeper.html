@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="Minesweeper.css">
+</head>
+<body>
+   <h1>扫雷</h1>
+   <div id="info-container">
+    <span id="mineCounter">Mines Remain: 0</span>
+    <span id="timer">Time: 0 seconds</span>
+    </div><br>
+   <div>
+        <button id="easy" onclick="createBoard(9, 9)">新手</button>
+        <button id="medium" onclick="createBoard(16, 16)">入门</button>
+        <button id="hard" onclick="createBoard(16, 30)">大师</button>
+    </div> <br>
+   <div id="gameBoard"></div>
+
+   <script src="Minesweeper.js"></script>
+</body>
+<footer>
+    <p>@zzZkevinw</p>
+</footer>
+</html>
